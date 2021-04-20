@@ -1,0 +1,29 @@
+{
+  "ids": {
+    "User": 16,
+    "Article": 13,
+    "Tag": 1,
+    "TagList": 4
+  },
+  "models": {
+    "User": {
+      "test1": "{\"email\":\"test1@joara.com\",\"password\":\"12345\",\"username\":\"test1\",\"bio\":\"string\",\"image\":\"string\"}",
+      "test2": "{\"email\":\"test2@joara.com\",\"password\":\"12345\",\"username\":\"test2\",\"bio\":\"\",\"image\":\"https://img.huffingtonpost.com/asset/5dd5f293250000ab11d2dbc4.jpeg?cache=A1ADNLUVMY&ops=scalefit_630_noupscale\"}",
+      "Jacob": "{\"username\":\"Jacob\",\"email\":\"jake@jake.jake\",\"password\":\"jakejake\",\"bio\":\"\",\"image\":\"\"}"
+    },
+    "Article": {
+      "how-to-train-your-dragon": "{\"slug\":\"how-to-train-your-dragon\",\"title\":\"How to train your dragon\",\"description\":\"Ever wonder how?\",\"body\":\"It takes a Jacobian\",\"createdAt\":\"2021-04-19T07:02:35.140Z\",\"updatedAt\":\"2021-04-19T07:02:35.140Z\",\"favoriteCount\":0,\"username\":\"test1\"}",
+      "how-to-train-your-agon": "{\"slug\":\"how-to-train-your-agon\",\"title\":\"How to train your agon\",\"description\":\"Ever wonder how?\",\"body\":\"It takes a Jacobian\",\"createdAt\":\"2021-04-19T07:04:57.187Z\",\"updatedAt\":\"2021-04-19T07:04:57.187Z\",\"favoriteCount\":0,\"username\":\"test2\"}",
+      "how-t-dragon": "{\"slug\":\"how-t-dragon\",\"title\":\"How t dragon\",\"description\":\"Ever wonder how?\",\"body\":\"It takes a Jacobian\",\"createdAt\":\"2021-04-19T07:17:02.837Z\",\"updatedAt\":\"2021-04-19T07:17:02.837Z\",\"favoriteCount\":0,\"username\":\"test1\"}"
+    },
+    "Tag": {
+      "dragon": "{\"tagname\":\"dragon\"}",
+      "type": "{\"tagname\":\"type\"}"
+    },
+    "TagList": {
+      "1": "{\"id\":1,\"tagname\":\"dragon\",\"slug\":\"how-to-train-your-dragon\"}",
+      "2": "{\"id\":2,\"tagname\":\"type\",\"slug\":\"how-to-train-your-dragon\"}",
+      "3": "{\"id\":3,\"tagname\":\"dragon\",\"slug\":\"how-to-train-your-agon\"}"
+    }
+  }
+}
